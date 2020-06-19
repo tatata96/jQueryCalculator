@@ -55,6 +55,7 @@ $(document).ready(function () {
 
             if (num > maxValue || num < minValue) {
                 alert("Value out of boundary");
+                resetCond();
             }
 
             if (firstNum === false) { //operation with more than one operator
@@ -123,6 +124,7 @@ $(document).ready(function () {
 
         if (inputArr[0] > maxValue || inputArr[0] < minValue) {
             alert("Value out of boundary");
+            resetCond();
         }
     }
 
